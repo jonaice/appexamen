@@ -1,0 +1,9 @@
+.git
+.env
+.gitignore
+node_modules
+vendor
+docker-compose*.yml
+dockerfiles/
+mysql/
+mysql_data/
