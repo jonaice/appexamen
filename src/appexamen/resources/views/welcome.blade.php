@@ -14,7 +14,10 @@
     :class="{'dark bg-gray-900': darkMode === true}"
   >
     <div class="flex h-screen overflow-hidden">
-      @includeIf('sidebar')
+        @includeIf('sidebar')
+        <div class="relative flex flex-col flex-1 overflow-x-hidden overflow-y-auto">
+            @includeIf('header')
+        </div>
     </div>
   </body>
 </html>
